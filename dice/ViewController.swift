@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  dice
-//
-//  Created by Muhammed Salih Bulut on 22.11.2023.
-//
 
 import UIKit
 
