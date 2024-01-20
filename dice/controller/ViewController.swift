@@ -95,7 +95,6 @@ class ViewController: UIViewController {
                                           options: .transitionCrossDissolve,
                                           animations: {
                                                 self.diceimage1.image = diceImage
-                                            
                                           },
                                           completion: nil)
                         currentFrame += 1
@@ -106,5 +105,8 @@ class ViewController: UIViewController {
                     }
                 }
         animateDiceRoll()
+        }
+    @IBAction func button1(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "gotodice", sender: self)
     }
 }
